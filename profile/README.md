@@ -13,9 +13,9 @@ Das PSource Plugin-Ökosystem ist mehr als nur eine Plugin-Sammlung – es ist e
 
 ---
 
-## 🏆 Die Bigplayer
+## 🏆 Besonders im Fokus
 
-### 💼 **PS Mitgliedschaften** (Membership2)
+### 💼 **PS Mitgliedschaften**
 Das Herzstück für Mitgliederverwaltung und Content-Monetarisierung. Definiert Zugriffsrechte, Mitgliedschaftsstufen und Zahlungsströme für das gesamte Ökosystem.
 
 **Integration mit:**
@@ -25,7 +25,7 @@ Das Herzstück für Mitgliederverwaltung und Content-Monetarisierung. Definiert 
 - Events & Bookings (Ticket-Zugänge)
 
 ### 🛒 **MarketPress**
-Vollständige E-Commerce-Lösung mit Multi-Vendor-Support, Stripe-Integration und nahtloser Anbindung an Mitgliedschaften.
+Vollständige E-Commerce-Lösung mit Multi-Vendor-Support, Stripe-Integration und nahtloser Anbindung an Mitgliedschaften und Netzwerk-Funktionalität in Multisite-Umgebungen.
 
 **Integration mit:**
 - PS Mitgliedschaften (Automatische Membership-Upgrades)
@@ -57,6 +57,15 @@ Umfassende Security-Suite für Malware-Scans, Firewall, 2FA und Security-Hardeni
 - PS Live Debug (Debug-Mode-Schutz)
 - PS Bloghosting (Network-weite Security)
 - PS DSGVO (Privacy-Compliance)
+
+### 🔒 **PS Smart Business**
+CRM, Buchhaltung, Mitarbeiterveraltung und Frontend-App in einem, alles was du für dein kleines Unternehmen brauchst.
+
+**Integration mit:**
+- MarketPress (Erfassen von Verkäufen in der Buchhaltung)
+- PS PM System (Internes Mailfach)
+- PS Terminmanager (Syncronisation zwischen CRM Agenten und Dienstleisern/Kunden)
+- PS Support System (Integriert FAQ und Tickets ins CRM Dashboard)
 
 ---
 
