@@ -1,357 +1,153 @@
-# 🌟 PSource Plugin-Ökosystem
+# PSOURCE
 
-> **Die vollständige Open-Source Plattform für ClassicPress & WordPress**  
-> Community · E-Commerce · Bildung · Sicherheit – Alles aus einer Hand. Privacy First.
+**Open-Source-Plugins für WordPress und ClassicPress.**
 
----
+PSOURCE entwickelt, modernisiert und pflegt freie Plugins für WordPress und ClassicPress.
 
-## 🎯 Vision
-
-Das PSource Plugin-Ökosystem ist mehr als nur eine Plugin-Sammlung – es ist eine **vollständig integrierte Plattform** für moderne Multisite-Netzwerke, Community-Websites und E-Learning-Portale. Jedes Plugin ist ein Baustein, der nahtlos mit anderen zusammenarbeitet und so ein mächtiges, erweiterbares System bildet.
-
-**Privacy First** steht im Zentrum unserer Entwicklung. Alle Daten bleiben auf Ihrem Server. Keine Cloud-Abhängigkeiten. Keine Tracking-Skripte. Volle Kontrolle.
+Der Schwerpunkt liegt auf praktischen Lösungen für Websites, Communities, Multisite-Netzwerke und kleine Unternehmen – mit einem besonderen Fokus auf sauberem, wartbarem und möglichst unabhängigem Code.
 
 ---
 
-## 🏆 Besonders im Fokus
+## 🧩 Was ist PSOURCE?
 
-### 💼 **PS Mitgliedschaften**
-Das Herzstück für Mitgliederverwaltung und Content-Monetarisierung. Definiert Zugriffsrechte, Mitgliedschaftsstufen und Zahlungsströme für das gesamte Ökosystem.
+PSOURCE (Power-Source) ist ein Open-Source-Projekt, das aus der Weiterentwicklung und Modernisierung bestehender WordPress- und ClassicPress-Projekte entstanden ist.
 
-**Integration mit:**
-- MarketPress (E-Commerce-Zahlungen)
-- CoursePress (Kurs-Zugriff)
-- PS Community (Member-Profile)
-- Events & Bookings (Ticket-Zugänge)
+Viele der Projekte haben eine längere Geschichte und werden Schritt für Schritt technisch modernisiert, angepasst und weiterentwickelt.
 
-### 🛒 **MarketPress**
-Vollständige E-Commerce-Lösung mit Multi-Vendor-Support, Stripe-Integration und nahtloser Anbindung an Mitgliedschaften und Netzwerk-Funktionalität in Multisite-Umgebungen.
-
-**Integration mit:**
-- PS Mitgliedschaften (Automatische Membership-Upgrades)
-- PS Bloghosting (Pro Sites Integration)
-- Private Messaging (Vendor-Kommunikation)
-
-### 👥 **PS Community** (BuddyPress/PeepSo Alternative)
-Verwandelt Ihre Website in ein vollwertiges soziales Netzwerk mit Profilen, Activity-Streams, Gruppen und Freundschaften.
-
-**Integration mit:**
-- Private Messaging (Nahtlose Kommunikation)
-- PS Mitgliedschaften (Member-only Communities)
-- Events & Bookings (Event-Gruppen)
-- PS Postindexer (Social Feed)
-
-### 🎓 **CoursePress**
-Leistungsstarkes Learning Management System (LMS) für Online-Kurse, Zertifikate und Student-Management.
-
-**Integration mit:**
-- PS Mitgliedschaften (Kurs-Zugangssteuerung)
-- MarketPress (Kurs-Verkauf)
-- PS Community (Lerner-Communitys)
-- Events & Bookings (Live-Sessions)
-
-### 🔒 **CP Defender**
-Umfassende Security-Suite für Malware-Scans, Firewall, 2FA und Security-Hardening.
-
-**Integration mit:**
-- PS Live Debug (Debug-Mode-Schutz)
-- PS Bloghosting (Network-weite Security)
-- PS DSGVO (Privacy-Compliance)
-
-### 🔒 **PS Smart Business**
-CRM, Buchhaltung, Mitarbeiterveraltung und Frontend-App in einem, alles was du für dein kleines Unternehmen brauchst.
-
-**Integration mit:**
-- MarketPress (Erfassen von Verkäufen in der Buchhaltung)
-- PS PM System (Internes Mailfach)
-- PS Terminmanager (Syncronisation zwischen CRM Agenten und Dienstleisern/Kunden)
-- PS Support System (Integriert FAQ und Tickets ins CRM Dashboard)
+Dabei geht es nicht darum, möglichst viele Plugins zu veröffentlichen, sondern darum, vorhandene Projekte langfristig nutzbar zu halten und sinnvoll weiterzuentwickeln.
 
 ---
 
-## 🔗 Das Zusammenspiel
+## 🚀 Unsere Projekte
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    PS Update Manager                         │
-│              (Zentrale Verwaltung aller Plugins)             │
-└─────────────────────────────────────────────────────────────┘
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-┌───────▼─────────┐  ┌────────▼────────┐  ┌────────▼────────┐
-│ PS Mitglied-    │  │   MarketPress   │  │  PS Community   │
-│  schaften       │◄─┤   E-Commerce    │◄─┤   Social Hub    │
-│  (Access Hub)   │  │                 │  │                 │
-└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
-         │                    │                     │
-    ┌────┴────────────────────┴──────────┬─────────┴────┐
-    │                                    │              │
-┌───▼────────┐  ┌─────────────┐  ┌──────▼──────┐  ┌───▼────────┐
-│CoursePress │  │Events &     │  │  Private    │  │ Powerform  │
-│   (LMS)    │  │ Bookings    │  │ Messaging   │  │  (Forms)   │
-└────────────┘  └─────────────┘  └─────────────┘  └────────────┘
-```
+Die PSOURCE-Organisation umfasst verschiedene Plugins und Projekte aus unterschiedlichen Bereichen.
 
-### 🎯 Beispiel-Szenarien
+### 💼 Business & Verwaltung
 
-**Szenario 1: Online-Akademie**
-CoursePress verkauft Kurse über MarketPress → PS Mitgliedschaften steuert Zugriff → PS Community ermöglicht Lerner-Austausch → Events & Bookings für Live-Webinare → Private Messaging für 1:1 Coaching
+- **PS Smart Business** – CRM- und Business-Verwaltung
+- **PS Power-Seitenleisten** – Verwaltung individueller Seitenleisten
+- **Powerform** – Formularverwaltung und Formular-Builder
 
-**Szenario 2: Multisite-Netzwerk**
-PS Bloghosting verwaltet Sites → Cloner dupliziert Templates → PS Mitgliedschaften definiert Site-Pakete → CP Defender schützt das Netzwerk → PS Snapshot erstellt Backups
+### 👥 Community & Kommunikation
 
-**Szenario 3: Membership-Community**
-PS Community als Social Hub → PS Mitgliedschaften für Premium-Bereiche → Private Messaging für Member-Kommunikation → PS Postindexer für Content-Aggregation → PS Voting für Umfragen
+- **PS Community** – Community-Funktionen
+- **PS Chat** – Chat- und Kommunikationsfunktionen
+- **Private Messaging** – interne Nachrichtenfunktionen
 
----
+### 🛒 E-Commerce & Multisite
 
-## 🛡️ Privacy First Philosophy
+- **MarketPress** – E-Commerce
+- **PS Bloghosting** – Blog- und Site-Hosting für WordPress Multisite
+- **PS Postindexer** – netzwerkweite Indexierung von Inhalten
 
-### ✅ Was wir NICHT tun:
-- ❌ Keine externen API-Calls für Analytics
-- ❌ Keine Cloud-Speicherung sensibler Daten
-- ❌ Keine Tracking-Pixel oder Third-Party-Cookies
-- ❌ Keine Abhängigkeit von externen Diensten
+### 📚 Content & Wissen
 
-### ✅ Was wir bieten:
-- ✅ **PS DSGVO**: Vollständige GDPR/DSGVO-Compliance-Tools
-- ✅ **Lokale Datenspeicherung**: Alle Daten auf Ihrem Server
-- ✅ **PS Snapshot**: Lokale Backups ohne Cloud-Zwang
-- ✅ **CP Defender**: Privacy-fokussierte Security
-- ✅ **Transparenter Code**: 100% Open Source
+- **PS Wiki** – Wiki- und Wissensmanagement
+- **PS Link Checker** – Überprüfung von Links
+- weitere Content- und Verwaltungswerkzeuge
+
+### 🔧 Entwickler & Administration
+
+- **PS Update Manager** – Verwaltung von Plugin- und Theme-Updates
+- **PS Live Debug** – Werkzeuge für Entwicklung und Debugging
+- verschiedene Bibliotheken und gemeinsame Komponenten
+
+> Die Liste ist nicht vollständig. Die einzelnen Repositories enthalten die jeweils aktuellen Informationen zu ihren Projekten.
 
 ---
 
-## 🧩 Plugin-Kategorien
+## 🛠️ WordPress & ClassicPress
 
-### 📱 **Community & Social**
-- **PS Community** – Social Network Features
-- **Private Messaging** – Sichere Nachrichten zwischen Usern
-- **PS Chat** – Live-Chat-System
-- **Blogs Directory** – Site-Directory für Multisite
+PSOURCE richtet sich sowohl an **WordPress** als auch an **ClassicPress**.
 
-### 💰 **E-Commerce & Monetarisierung**
-- **MarketPress** – E-Commerce-Plattform
-- **PS Mitgliedschaften** – Membership & Subscriptions
-- **PS Bloghosting** – Multisite-Monetarisierung (Pro Sites)
-- **In-Post Ads** – Native Advertising
+Bei älteren Projekten bedeutet das häufig, dass bestehender Code schrittweise modernisiert wird:
 
-### 🎓 **Bildung & Events**
-- **CoursePress** – Learning Management System
-- **Events & Bookings** – Event-Management mit Buchungssystem
-- **Terminmanager** – Appointment-Scheduler
-- **PS Wiki** – Knowledge Base & Wiki
+- veraltete APIs ersetzen
+- PHP-Kompatibilität verbessern
+- JavaScript modernisieren
+- veraltete jQuery-Abhängigkeiten reduzieren
+- Sicherheitsprobleme beheben
+- WordPress- und ClassicPress-Kompatibilität verbessern
+- bestehende Funktionen möglichst erhalten
 
-### 🔒 **Sicherheit & Wartung**
-- **CP Defender** – Security-Suite
-- **PS Snapshot** – Backup & Restore
-- **Cloner** – Site Cloning & Migration
-- **PS Live Debug** – Debug- & Entwicklertools
-- **PSource Link Checker** – Broken-Link-Detection
+Dabei gilt:
 
-### 🎨 **Content & Funktionalität**
-- **Powerform** – Formular-Builder
-- **E-Newsletter** – Newsletter-Management
-- **PS Maps** – Google Maps Integration
-- **PS Popup** – Popup & Notification System
-- **PS Slide-In** – Slide-In Content Panels
-
-### 🔧 **Entwickler & Admin**
-- **PS Update Manager** – Zentrale Plugin-Updates
-- **PS Pretty Plugins** – Plugin-Dashboard-Verschönerung
-- **CustomPress** – Custom Post Types & Fields
-- **PSource Shortcodes** – Shortcode-Sammlung
-- **Benutzerdefinierte Seitenleisten** – Advanced Sidebar Management
-
-### 📊 **Analytics & Tracking (Privacy-First)**
-- **PS Stats** – Privacy-freundliche Statistiken (keine externen Calls)
-- **PS Postindexer** – Content-Indexierung für Netzwerke
-- **PS Voting** – Polls & Voting-System
-
-### 📧 **Kommunikation**
-- **Private Messaging** – Interne Messaging-Plattform
-- **PS Chat** – Live-Chat
-- **PS Support** – Ticket-Support-System
-- **E-Newsletter** – Newsletter-Versand
-
-### 🎯 **Marketing & Engagement**
-- **PS Popup** – Popups & Overlays
-- **PS Slide-In** – Slide-In Content
-- **Affiliate** – Affiliate-Marketing-System
-- **PS Fundraising** – Crowdfunding & Donations
-
-### 🌍 **Multisite-Speziell**
-- **PS Bloghosting** – Pro Sites Management
-- **Cloner** – Site-Duplikation
-- **Multisite Content Copier** – Content-Synchronisation
-- **MS Reader** – Cross-Site Content Reading
-
-### 🎨 **Theme & Builder**
-- **Upfront Builder** – Visual Page Builder
-- **PSource Branding** – White-Label-Tools
+**Modernisieren, ohne funktionierende Projekte unnötig kaputtzumachen.**
 
 ---
 
-## 🚀 Erste Schritte
+## 🔒 Datenschutz & Unabhängigkeit
 
-### Minimale Installation (WordPress Starter)
-```
-1. ps-update-manager (Update-Verwaltung)
-2. cp-defender (Security)
-3. ps-snapshot (Backups)
-4. powerform (Formulare)
-```
+Datenschutz und die Kontrolle über die eigene Installation sind wichtige Grundsätze des Projekts.
 
-### Community-Plattform
-```
-1. ps-community (Social Features)
-2. private-messaging (Kommunikation)
-3. ps-mitgliedschaften (Access Control)
-4. events-and-bookings (Events)
-5. ps-popup (Engagement)
-```
+PSOURCE-Plugins sollen möglichst ohne unnötige externe Dienste auskommen.
 
-### E-Learning-Portal
-```
-1. coursepress (LMS)
-2. ps-mitgliedschaften (Kurs-Zugriff)
-3. marketpress (Kurs-Verkauf)
-4. terminmanager (1:1-Sessions)
-5. ps-community (Lerner-Community)
-```
+Das bedeutet insbesondere:
 
-### Multisite-Netzwerk
-```
-1. ps-bloghosting (Pro Sites)
-2. ps-mitgliedschaften (Site-Pakete)
-3. cloner (Site-Templates)
-4. ps-snapshot (Network-Backups)
-5. cp-defender (Network-Security)
-```
+- keine unnötige Cloud-Abhängigkeit
+- keine vorgeschriebenen SaaS-Dienste
+- möglichst lokale Verarbeitung
+- nachvollziehbarer Open-Source-Code
+- GPL-basierte Software
+
+Natürlich kann ein Plugin je nach Funktion externe Dienste unterstützen oder benötigen. Die jeweiligen Voraussetzungen stehen immer im Repository des betreffenden Projekts.
 
 ---
 
-## 🔧 Technische Highlights
+## 📦 Open Source
 
-### Shared Components
-- **wpmu-lib**: Gemeinsame Library für konsistente UI/UX
-- **Shared UI**: Einheitliche Admin-Oberflächen
-- **PSource Plugin Update**: Zentrales Update-System
-- **Sprachunterstützung**: Deutsch, Englisch, Französisch, Italienisch, Spanisch
+Die Projekte werden als freie Open-Source-Software entwickelt.
 
-### Code-Qualität
-- PSR-kompatible Strukturen
-- WordPress/ClassicPress Coding Standards
-- Extensive Hooks & Filter für Erweiterbarkeit
-- Modular & erweiterbar
+Die meisten Projekte stehen unter:
 
-### Performance
-- Asset-Optimierung
-- Lazy Loading
-- Database-Query-Optimierung
-- Cache-freundlich
+**GPL v2 oder höher**
+
+Die konkrete Lizenz eines Projekts findest du jeweils in dessen Repository.
+
+Du kannst den Code untersuchen, verändern und für eigene Projekte verwenden, sofern du die jeweilige Lizenz einhältst.
 
 ---
 
-## 📖 Dokumentation
+## 🧑‍💻 Entwicklung
 
-Jedes Plugin enthält:
-- `readme.txt` – WordPress.org Standard-Dokumentation
-- `docs/` Ordner – Erweiterte Anleitungen
-- Inline-Code-Dokumentation
-- Hook-Referenzen
+PSOURCE ist kein klassisches SaaS-Unternehmen.
 
----
+Die Entwicklung findet direkt an den Projekten statt. Viele Repositories sind Forks oder Weiterentwicklungen älterer Open-Source-Projekte.
 
-## 🤝 Open Source Commitment
+Deshalb findest du in den Repositories teilweise:
 
-Alle Plugins sind **Open Source** und stehen unter GPL-Lizenz. Das bedeutet:
+- älteren Code
+- historische Dateistrukturen
+- unterschiedliche Entwicklungsstände
+- unterschiedliche Kompatibilitätsanforderungen
 
-- ✅ Freie Verwendung für kommerzielle und private Projekte
-- ✅ Anpassbar an Ihre Bedürfnisse
-- ✅ Keine Vendor Lock-ins
-- ✅ Community-Contributions willkommen
-- ✅ Transparenter, überprüfbarer Code
+Nicht jedes Projekt befindet sich auf demselben technischen Stand.
+
+Ein Ziel des Projekts ist es, diese bestehenden Codebasen nach und nach zu modernisieren.
 
 ---
 
-## 🌍 Für wen?
+## 🤝 Mitmachen
 
-### 🎓 **Bildungseinrichtungen**
-Erstellen Sie Online-Akademien mit CoursePress, verkaufen Sie Kurse, verwalten Sie Studenten und ermöglichen Sie Community-Interaktion.
+Fehler gefunden?
 
-### 🏢 **Agenturen**
-Nutzen Sie Multisite-Features für Client-Management, klonen Sie Sites mit einem Klick, monetarisieren Sie Services.
+Eine Idee für eine Verbesserung?
 
-### 👥 **Community-Builder**
-Bauen Sie Social Networks, Foren, Mitgliederseiten mit vollständiger Kontrolle über Daten und Features.
+Dann kannst du im jeweiligen Repository ein **Issue** erstellen oder einen **Pull Request** einreichen.
 
-### 🛍️ **E-Commerce-Betreiber**
-MarketPress + PS Mitgliedschaften = Leistungsstarke Kombination für Subscriptions, Digital Products und Services.
-
-### 🏛️ **Öffentliche Einrichtungen**
-DSGVO-konform, datenschutzfreundlich, keine externen Abhängigkeiten – perfekt für öffentliche Institutionen.
+Bitte beachte dabei die Hinweise des jeweiligen Projekts.
 
 ---
 
-## 📊 Die Zahlen
+## 🌐 PSOURCE
 
-- **50+ Plugins** im Ökosystem
-- **100% Open Source**
-- **5+ Sprachen** unterstützt
-- **Privacy First** seit Tag 1
-- **ClassicPress & WordPress** kompatibel
-- **Multisite-optimiert**
+**Power-Source – Open Source aus dem Weserbergland.**
 
----
-
-## 🛣️ Roadmap
-
-### In Arbeit
-- [ ] Modernisierung der UI-Components
-- [ ] REST API Erweiterungen
-- [ ] Block Editor Integration
-- [ ] Performance-Optimierungen
-- [ ] Enhanced Plugin-Interoperabilität
-
-### Vision
-Eine vollständig integrierte, privacy-fokussierte Alternative zu SaaS-Plattformen wie Kajabi, Mighty Networks oder Circle – aber Open Source und auf Ihrer Infrastruktur.
-
----
-
-## 💬 Support & Community
-
-**Entwicklung:** Open Source Community-Projekt  
-**Lizenz:** GPL v2 oder höher  
-**Sprache:** Entwickelt mit ❤️ in Deutschland
-
----
-
-## 🙏 Credits
-
-Dieses Ökosystem wurde über Jahre von Entwicklern weltweit aufgebaut und wird kontinuierlich verbessert. Jeder Plugin-Ordner enthält spezifische Credits und Contributor-Informationen.
-
-**Ein besonderer Dank** an alle, die Code beigetragen, Bugs gemeldet und das Projekt unterstützt haben.
-
----
-
-## ⚡ Quick Links
-
-- 📦 **Installation**: Via PS Update Manager
-- 🔧 **Entwickler-Docs**: Siehe jeweilige Plugin-`docs/` Ordner
-- 🛡️ **Security**: CP Defender Setup-Guide
-- 🌐 **Multisite**: PS Bloghosting Dokumentation
-- 📚 **LMS**: CoursePress Handbuch
+WordPress · ClassicPress · Open Source · GPL
 
 ---
 
 <p align="center">
-<strong>PSource Plugin-Ökosystem</strong><br>
-<em>Die mächtige, privacy-fokussierte Alternative zu SaaS-Platforms</em><br>
-<sub>Open Source · Privacy First · Community Driven</sub>
+  <strong>PSOURCE</strong><br>
+  Open Source für WordPress & ClassicPress
 </p>
-
----
-
-*Zuletzt aktualisiert: März 2026*
