@@ -1,5 +1,7 @@
 # Unsere Motivation
 
+[🇩🇪 Deutsch](MOTIVATION.md) · [🇬🇧 English](MOTIVATION-en.md) · [ÜBER PSOURCE](README.md)
+
 ## PSOURCE war nicht geplant. Es ist gewachsen.
 
 PSOURCE begann nicht mit einem Businessplan, einer Marketingstrategie oder dem ambitionierten Ziel, ein eigenes Ökosystem aufzubauen.
