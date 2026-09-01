@@ -1,6 +1,8 @@
 # PSOURCE
 
-**Open-Source-Plugins für WordPress und ClassicPress.**
+**Open Source software for ClassicPress and WordPress.**
+
+[🇩🇪 Deutsch](README.md) · [🇬🇧 English](README-en.md) · [Unsere Motivation](MOTIVATION.md)
 
 PSOURCE entwickelt, modernisiert und pflegt freie Plugins für WordPress und ClassicPress.
 
